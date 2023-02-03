@@ -1,0 +1,124 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+.wrapper{
+	width:95%; 
+	margin: auto;
+}
+.header{
+	background: #01af70;
+	padding: 10px 0;
+}
+.header a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu{
+	padding: 10px 0;
+	text-align: center;
+}
+.menu a{
+	color: #01af70;
+	font-weight: bold;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+.footer{
+	position: absolute; 
+	bottom: 0; 
+	background: #e0e5e2; 
+	width: 100%; 
+	text-align: center; 
+	color: gray; 
+	padding: 10px 0;
+}
+.footer-login{
+	position: relative; 
+	bottom: 0; 
+	background: #e0e5e2; 
+	width: 100%; 
+	text-align: center; 
+	color: gray; 
+	padding: 10px 0;
+}
+.content{
+	margin: 10px 0;
+}
+.dosen, .mahasiswa, .karyawan{
+	float: left;
+	background: #e8fff7;
+	width: 400px;
+	margin: 0 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.headline{
+	background: #008e62;
+	color: #fff;
+}
+.line{
+	height: 5px;
+}
+.line a{
+	text-decoration: none;
+	float: right;
+	background: #fff;
+	padding: 5px 10px;
+	border-radius: 0 0 5px 5px;
+	color: #008e62;
+}
+/*login layout*/
+.login{
+	width: 400px; 
+	margin: auto; 
+	margin-top: 100px;
+	background: #f2f7f5; 
+	border-radius: 5px;
+}
+.login-header{
+	text-align: center; 
+	color: gray;
+}
+.login-header .logo{
+	margin-top: -50px; 
+	margin-bottom: 10px;
+}
+.login-content{
+	padding: 10px; 
+	margin-top: 10px; 
+	text-align: center;
+}
+.login-content input{
+	width: 300px; 
+	margin: 10px 0; 
+	height: 30px; 
+	padding: 5px; 
+	border: 1px solid #ededef; 
+	border-radius: 3px;
+}
+.login-content [type=submit]{
+	background: #63b297; 
+	height: 40px; 
+	width: 310px; 
+	color: #fff; 
+	font-weight: bold;
+}
+.login-footer{
+	text-align: center; 
+	padding: 10px;
+}
+.login-footer a{
+	text-decoration: none; 
+	color: gray;
+}
+.warning{
+	text-align: center; 
+	color: red; 
+	margin-top: 10px; 
+	background: rgb(247, 35, 2, 0.5);
+	padding: 5px 0;
+	border-radius: 3px;
+}
